@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "dailyPicture": "img/1.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 2,
+    "dailyPicture": "img/2.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 3,
+    "dailyPicture": "img/3.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 4,
+    "dailyPicture": "img/4.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 5,
+    "dailyPicture": "img/5.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 6,
+    "dailyPicture": "img/6.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 7,
+    "dailyPicture": "img/7.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 8,
+    "dailyPicture": "img/8.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 9,
+    "dailyPicture": "img/9.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 10,
+    "dailyPicture": "img/10.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 11,
+    "dailyPicture": "img/11.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 12,
+    "dailyPicture": "img/12.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 13,
+    "dailyPicture": "img/13.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 14,
+    "dailyPicture": "img/14.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 15,
+    "dailyPicture": "img/15.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 16,
+    "dailyPicture": "img/16.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 17,
+    "dailyPicture": "img/17.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 18,
+    "dailyPicture": "img/18.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 19,
+    "dailyPicture": "img/19.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 20,
+    "dailyPicture": "img/20.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 21,
+    "dailyPicture": "img/21.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 22,
+    "dailyPicture": "img/22.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 23,
+    "dailyPicture": "img/23.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  },
+  {
+    "id": 24,
+    "dailyPicture": "img/24.jpg",
+    "dailyPictureDescription": "A picture of a cat"
+  }
+]
