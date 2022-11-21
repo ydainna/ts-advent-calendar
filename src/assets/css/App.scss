@@ -20,7 +20,7 @@ body {
     border: $backgroundBorderContainerCalendar;
     box-shadow: $backgroundContainerCalendarBoxShadow;
     border-radius: $borderRadiusContainerCalendar;
-    margin: 0 10%;
+    margin: 30%;
     & p {
       color: $paragraphCalendarColor;
       text-align: center;
@@ -89,6 +89,16 @@ body {
         border: 3px double #A01500;
       }
     }
+    @media screen and (min-width: 700px) {
+      background-color: $backgroundContainerCalendarColor;
+      width: auto;
+      padding: 1%;
+      box-sizing: border-box;
+      border: $backgroundBorderContainerCalendar;
+      box-shadow: $backgroundContainerCalendarBoxShadow;
+      border-radius: $borderRadiusContainerCalendar;
+      margin: 10%;
+    }
   }
   @media screen and (min-width: 700px) {
     display: flex;
@@ -110,6 +120,7 @@ body {
 
 .lottie-background {
   visibility: hidden;
+  position: absolute;
   @media screen and (min-width: 700px) {
     position: absolute;
     top: 0;
@@ -185,6 +196,20 @@ p {
   justify-content: center;
   padding: 1rem;
   box-sizing: border-box;
+}
+
+.button-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.button-close:hover {
+  color: #ccc;
 }
 
 .roulette-button {

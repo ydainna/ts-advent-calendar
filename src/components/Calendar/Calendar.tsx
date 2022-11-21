@@ -11,13 +11,13 @@ export default function Calendar() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const checkDay = (day: number, index: number) => {
-    const date = new Date();
-    const month = date.getMonth() + 1;
-    const today = date.getDate();
-    if (month === 12 && today === day) {
+    const date: Date = new Date();
+    const month: number = date.getMonth() + 1;
+    const today: number = date.getDate();
+    if (month === 11 && today === day) {
       setModalIsOpen(true);
       setDataIndex(index);
-    }
+    } 
   }
 
   const handleCloseModal = () => {
@@ -53,6 +53,7 @@ export default function Calendar() {
           <p>{event[Math.floor(Math.random() * event.length)].event}</p>
           <hr/>
           <Roulette/>
+          <button className="button-close" onClick={handleCloseModal}>❌</button>
         </div>
       </Modal>
     </>
