@@ -1,10 +1,12 @@
 import { useState } from "react";
 import Player from "react-lottie-player";
 import Modal from "react-modal";
+import { ToastContainer, toast, Zoom } from "react-toastify";
 import santa from "../../assets/lottie/santa.json"
 import dataCalendar from "../../assets/data/data.calendar.json"
 import event from "../../assets/data/data.event.json"
 import Roulette from "../Roulette/Roulette";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Calendar() {
   const [dataIndex, setDataIndex] = useState(0);
@@ -14,14 +16,36 @@ export default function Calendar() {
     const date: Date = new Date();
     const month: number = date.getMonth() + 1;
     const today: number = date.getDate();
-    if (month === 11 && today === day) {
+    if (month === 12 && today === day) {
       setModalIsOpen(true);
       setDataIndex(index);
-    } 
+    } else {
+      notify();
+    }
   }
 
   const handleCloseModal = () => {
     setModalIsOpen(false);
+  };
+
+
+  const notify = () => {
+    toast.error(
+      <div>
+        <p id="errorText">Il n'est pas encore l'heure d'ouvrir cette case...</p>
+      </div>,
+      {
+        position: "top-right",
+        autoClose: 4000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        transition: Zoom,
+      }
+    );
   };
 
   return (
@@ -56,6 +80,7 @@ export default function Calendar() {
           <button className="button-close" onClick={handleCloseModal}>❌</button>
         </div>
       </Modal>
+      <ToastContainer />
     </>
   )
 }
